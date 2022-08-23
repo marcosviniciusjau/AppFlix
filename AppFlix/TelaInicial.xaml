@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlix.TelaInicial"   Background="#6C287D">
+
+    <StackLayout VerticalOptions="CenterAndExpand">
+
+        <Image x:Name="logo" Style="{StaticResource logoNaListaDeCategorias}" />
+        <Image x:Name="destaque" />
+        <Button x:Name="Assistir"  Text="assistir"/>
+        <StackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Start">
+        </StackLayout>
+        <Label Text="Continue Assistindo" Grid.Column="0" Grid.Row="0" Style="{StaticResource Titulo}" />
+
+        <ScrollView>
+
+            <Grid RowSpacing="10" 
+                  ColumnSpacing="20" 
+                  Padding="10">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="100" />
+                    <ColumnDefinition Width="100" />
+                </Grid.ColumnDefinitions>
+
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="146" />
+                    <RowDefinition Height="146" />
+
+                </Grid.RowDefinitions>
+
+                <ImageButton Grid.Column="0" Grid.Row="0" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked" />
+                <ImageButton Grid.Column="1" Grid.Row="0" x:Name="btnReiLeao" Clicked="btnReiLeao_Clicked"/>
+                <ImageButton Grid.Column="2" Grid.Row="0" x:Name="btnIndianaJones" Clicked="btnIndianaJones_Clicked"/>
+                <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnShazan" Clicked="btnShazam_Clicked"/>
+                <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked" />
+                <ImageButton Grid.Column="2" Grid.Row="1" x:Name="btnAlladin" Clicked="btnAlladin_Clicked"/>
+                <ImageButton Grid.Column="0" Grid.Row="2" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"/>
+                <ImageButton Grid.Column="1" Grid.Row="2" x:Name="btnVef" Clicked="btnVef_Clicked"/>
+                <ImageButton Grid.Column="2" Grid.Row="2" x:Name="btnAventuraFloresta" Clicked="btnAventuraFloresta_Clicked"/>
+                <ImageButton Grid.Column="0" Grid.Row="3" x:Name="btnChamadoFloresta" Clicked="btnChamadoFloresta_Clicked"/>
+                <ImageButton Grid.Column="1" Grid.Row="3" x:Name="btnSonic" Clicked="btnSonic_Clicked"/>
+                <ImageButton Grid.Column="2" Grid.Row="3" x:Name="btnFlintstones" Clicked="btnFlintstones_Clicked"/>
+
+
+
+                <ImageButton Grid.Column="0" Grid.Row="4" x:Name="btnHome" Clicked="btnHome_Clicked"  VerticalOptions="End"/>
+                <ImageButton Grid.Column="1" Grid.Row="4" x:Name="btnBuscar" Clicked="btnBuscar_Clicked"  VerticalOptions="End"/>
+                <ImageButton Grid.Column="2" Grid.Row="4" x:Name="btnDownload" Clicked="btnDownload_Clicked"  VerticalOptions="End"/>
+
+
+            </Grid>
+        </ScrollView>
+
+
+
+    </StackLayout>
+
+</ContentPage>

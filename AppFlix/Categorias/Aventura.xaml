@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlix.Categorias.Aventura"  BackgroundColor="#6C287D">
+
+    <ContentPage.Content>
+
+
+        <StackLayout>
+
+
+            <Image x:Name="destaque"/>
+
+            <ScrollView>
+
+                <Grid Padding="5">
+
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                        <ColumnDefinition Width="100" />
+                    </Grid.ColumnDefinitions>
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="146" />
+                        <RowDefinition Height="146" />
+                        <RowDefinition Height="146" />
+                    </Grid.RowDefinitions>
+
+                    <ImageButton Grid.Column="0" Grid.Row="0" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked" />
+                    <ImageButton Grid.Column="1" Grid.Row="0" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked" />
+                    <ImageButton Grid.Column="2" Grid.Row="0" x:Name="btnShazam" Clicked="btnShazam_Clicked"/>
+                    <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnAlladin" Clicked="btnAlladin_Clicked"/>
+                    <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"/>
+                    <ImageButton Grid.Column="2" Grid.Row="1" x:Name="btnVef" Clicked="btnVef_Clicked"/>
+
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage> 
