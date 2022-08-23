@@ -11,6 +11,74 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="ImagensCategorias\Animacao.png" />
+    <None Remove="Imagens\botaoassistir.jpg" />
+    <None Remove="Imagens\botaominhalista.jpg" />
+    <None Remove="Imagens\botaosaibamais.jpg" />
+    <None Remove="Imagens\buscar.png" />
+    <None Remove="Imagens\capitamarveldestaque.jpg" />
+    <None Remove="Imagens\download.png" />
+    <None Remove="Imagens\Escolha1.png" />
+    <None Remove="Imagens\Escolha2.png" />
+    <None Remove="Imagens\Escolha3.png" />
+    <None Remove="Imagens\home.png" />
+    <None Remove="Imagens\jumanji.jpeg" />
+    <None Remove="Imagens\lupabuscar.png" />
+    <None Remove="Imagens\videomais.png" />
+    <None Remove="Img\dumbo.jpg" />
+    <None Remove="Img\logotipo.png" />
+    <None Remove="Posters\alladin.jpg" />
+    <None Remove="Posters\aventurafloresta.jpeg" />
+    <None Remove="Posters\capitamarvel.jpg" />
+    <None Remove="Posters\chamadofloresta.jpg" />
+    <None Remove="Posters\dumbo.jpg" />
+    <None Remove="Posters\flintstones.jpeg" />
+    <None Remove="Posters\indianajones.jpg" />
+    <None Remove="Posters\panteranegra.jpg" />
+    <None Remove="Posters\reileao.jpeg" />
+    <None Remove="Posters\shazam.jpg" />
+    <None Remove="Posters\sonic.jpg" />
+    <None Remove="Posters\vef.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ApplicationDefinition Include="Imagens\lupabuscar.png" />
+    <ApplicationDefinition Include="Posters\dumbo.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="ImagensCategorias\Animacao.png" />
+    <EmbeddedResource Include="Imagens\botaominhalista.jpg" />
+    <EmbeddedResource Include="Imagens\botaosaibamais.jpg" />
+    <EmbeddedResource Include="Imagens\buscar.png" />
+    <EmbeddedResource Include="Imagens\capitamarveldestaque.jpg" />
+    <EmbeddedResource Include="Imagens\download.png" />
+    <EmbeddedResource Include="Imagens\Escolha1.png" />
+    <EmbeddedResource Include="Imagens\Escolha2.png" />
+    <EmbeddedResource Include="Imagens\Escolha3.png" />
+    <EmbeddedResource Include="Imagens\home.png" />
+    <EmbeddedResource Include="Imagens\jumanji.jpeg" />
+    <EmbeddedResource Include="Imagens\videomais.png" />
+    <EmbeddedResource Include="Posters\dumbo.jpg" />
+    <EmbeddedResource Include="Img\logotipo.png" />
+    <EmbeddedResource Include="Posters\alladin.jpg" />
+    <EmbeddedResource Include="Posters\aventurafloresta.jpeg" />
+    <EmbeddedResource Include="Posters\capitamarvel.jpg" />
+    <EmbeddedResource Include="Posters\chamadofloresta.jpg" />
+    <EmbeddedResource Include="Posters\flintstones.jpeg" />
+    <EmbeddedResource Include="Posters\indianajones.jpg" />
+    <EmbeddedResource Include="Posters\panteranegra.jpg" />
+    <EmbeddedResource Include="Posters\reileao.jpeg" />
+    <EmbeddedResource Include="Posters\shazam.jpg" />
+    <EmbeddedResource Include="Posters\sonic.jpg" />
+    <EmbeddedResource Include="Posters\vef.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Imagens\botaoassistir.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>

@@ -1,12 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppFlix.Filmes.PanteraNegra">
+             x:Class="AppFlix.Filmes.PanteraNegra"   BackgroundColor="#6C287D">
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="520" />
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="405" />
+            </Grid.RowDefinitions>
+
+            <WebView Grid.Column="0" Grid.Row="0" x:Name="video" />
+
+            <StackLayout Grid.Column="0" Grid.Row="1">
+                <ScrollView>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="*" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
+                        </Grid.RowDefinitions>
+                        <ImageButton Grid.Column="0" Grid.Row="1" Padding="0" x:Name="btnCapitaMarvel"/>
+                        <ImageButton Grid.Column="1" Grid.Row="1" Padding="15" x:Name="btnVef2"/>
+                        <ImageButton Grid.Column="2" Grid.Row="1" Padding="15" x:Name="btnVef3"/>
+                        <ImageButton Grid.Column="0" Grid.Row="2" Padding="10" x:Name="btnVef4"/>
+                        <ImageButton Grid.Column="1" Grid.Row="2" Padding="10" x:Name="btnVef5"/>
+                        <ImageButton Grid.Column="2" Grid.Row="2" Padding="10" x:Name="btnVef6"/>
+                        <ImageButton Grid.Column="0" Grid.Row="3" Padding="10" x:Name="btnVef7"/>
+                        <ImageButton Grid.Column="1" Grid.Row="3" Padding="10" x:Name="btnVef9"/>
+
+                        <Button BackgroundColor="#E4142C"  Grid.Column="2" Grid.Row="0" Text="Adicionar à lista" VerticalOptions="StartAndExpand"/>
+                        <Button BackgroundColor="#E4142C"  Grid.Column="1" Grid.Row="0" Text="Baixar" VerticalOptions="StartAndExpand"/>
+                        <Button BackgroundColor="#E4142C"  Grid.Column="0" Grid.Row="0" Text="Assistir" VerticalOptions="Start"  />
+
+                        <StackLayout Grid.Column="1" Grid.Row="1" Grid.ColumnSpan="1" Padding="-320" VerticalOptions="Fill">
+                            <Label Text="Opções Semelhantes" Style="{StaticResource Titulo}" />
+                            <Label x:Name="lbl_opcoesrelacionadas" Style="{StaticResource TextoBranco}" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="0" Grid.Row="0" Padding="3" VerticalOptions="Start">
+
+                            <!-- <Label Text="Título" Style="{StaticResource Titulo}" /> -->
+                            <Label Text="Pantera Negra" Style="{StaticResource Titulo}" FontSize="Large" />
+
+                            <Label Text="Data de Lançamento" Style="{StaticResource Titulo}" />
+                            <Label Text="7 de Março de 2019" Style="{StaticResource TextoBrancoCentralizado}" />
+
+                            <Label Text="Direção" Style="{StaticResource Titulo}" />
+                            <Label Text="Anna Boden, Ryan Fleck" Style="{StaticResource TextoBrancoCentralizado}" />
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1" Grid.Row="0" Grid.ColumnSpan="2" Padding="8">
+                            <Label Text="Sinopse" Style="{StaticResource Titulo}" />
+
+                            <Label x:Name="lbl_sinopse" Style="{StaticResource TextoBranco}" />
+                        </StackLayout>
+
+
+                    </Grid>
+                </ScrollView>
+            </StackLayout>
+        </Grid>
+
     </ContentPage.Content>
+
 </ContentPage>
