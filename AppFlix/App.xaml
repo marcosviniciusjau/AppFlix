@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFlix.App">
+
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#E4142C" />
+                <Setter Property="BarTextColor" Value="#E4142C" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="BackgroundColor" Value="#E4142C" />
+                <Setter Property="TextColor" Value="white" />
+                <Setter Property="CornerRadius" Value="8" />
+                <Setter Property="BorderColor" Value="#E4142C" />
+                <Setter Property="BorderWidth" Value="1" />
+            </Style>
+
+            <Style TargetType="Image" x:Key="logoNaListaDeCategorias">
+                <Setter Property="HeightRequest" Value="85" />
+            </Style>
+
+            <Style TargetType="ImageButton">
+                <Setter Property="Aspect" Value="AspectFill" />
+            </Style>
+
+            <Style x:Key="Titulo" TargetType="Label">
+                <Setter Property="TextTransform" Value="Uppercase" />
+                <Setter Property="TextColor" Value="#e80000" />
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+                <!-- <Setter Property="FontSize" Value="Medium" /> -->
+                <Setter Property="Padding" Value="0,20,0,0" />
+            </Style>
+
+            <Style x:Key="TextoBranco" TargetType="Label">
+                <Setter Property="TextColor" Value="#FFFFFF" />
+            </Style>
+
+            <Style x:Key="TextoBrancoCentralizado" TargetType="Label" BaseResourceKey="TextoBranco">
+                <Setter Property="HorizontalTextAlignment" Value="Center" />
+            </Style>
+
+
+
+
+
+        </ResourceDictionary>
+
+    </Application.Resources>
+
+</Application>
