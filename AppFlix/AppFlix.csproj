@@ -12,6 +12,17 @@
 
   <ItemGroup>
     <None Remove="ImagensCategorias\Animacao.png" />
+    <None Remove="ImagensCategorias\Aventura.png" />
+    <None Remove="ImagensCategorias\Comedia.png" />
+    <None Remove="ImagensCategorias\Documentario.png" />
+    <None Remove="ImagensCategorias\Drama.png" />
+    <None Remove="ImagensCategorias\FiccaoCientifica.png" />
+    <None Remove="ImagensCategorias\Guerra.png" />
+    <None Remove="ImagensCategorias\Infantil.png" />
+    <None Remove="ImagensCategorias\Nacional.png" />
+    <None Remove="ImagensCategorias\Romance.png" />
+    <None Remove="ImagensCategorias\Suspense.png" />
+    <None Remove="ImagensCategorias\Terror.png" />
     <None Remove="Imagens\botaoassistir.jpg" />
     <None Remove="Imagens\botaominhalista.jpg" />
     <None Remove="Imagens\botaosaibamais.jpg" />
@@ -48,6 +59,17 @@
 
   <ItemGroup>
     <EmbeddedResource Include="ImagensCategorias\Animacao.png" />
+    <EmbeddedResource Include="ImagensCategorias\Aventura.png" />
+    <EmbeddedResource Include="ImagensCategorias\Comedia.png" />
+    <EmbeddedResource Include="ImagensCategorias\Documentario.png" />
+    <EmbeddedResource Include="ImagensCategorias\Drama.png" />
+    <EmbeddedResource Include="ImagensCategorias\FiccaoCientifica.png" />
+    <EmbeddedResource Include="ImagensCategorias\Guerra.png" />
+    <EmbeddedResource Include="ImagensCategorias\Infantil.png" />
+    <EmbeddedResource Include="ImagensCategorias\Nacional.png" />
+    <EmbeddedResource Include="ImagensCategorias\Romance.png" />
+    <EmbeddedResource Include="ImagensCategorias\Suspense.png" />
+    <EmbeddedResource Include="ImagensCategorias\Terror.png" />
     <EmbeddedResource Include="Imagens\botaominhalista.jpg" />
     <EmbeddedResource Include="Imagens\botaosaibamais.jpg" />
     <EmbeddedResource Include="Imagens\buscar.png" />
