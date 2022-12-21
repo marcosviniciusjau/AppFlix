@@ -25,9 +25,9 @@
 
 
 
-            <ImageButton  x:Name="Escolha1" Clicked="Escolha1_Clicked"   Grid.Column="1" Grid.Row="2" />
+            <ImageButton  x:Name="Escolha1" Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="2" />
             
-            <ImageButton  x:Name="Escolha2" Clicked="Escolha2_Clicked"   Grid.Column="2" Grid.Row="2"/>
+            <ImageButton  x:Name="Escolha2" Clicked="Escolha2_Clicked"   Grid.Column="1" Grid.Row="2"/>
             
 
         </Grid>

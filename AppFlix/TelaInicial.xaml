@@ -7,10 +7,6 @@
 
         <Image x:Name="logo" Style="{StaticResource logoNaListaDeCategorias}" />
         <Image x:Name="destaque" />
-        <Button x:Name="Assistir"  Text="assistir"/>
-        <StackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Start">
-        </StackLayout>
-        <Label Text="Continue Assistindo" Grid.Column="0" Grid.Row="0" Style="{StaticResource Titulo}" />
 
         <ScrollView>
 
