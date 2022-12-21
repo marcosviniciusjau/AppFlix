@@ -16,7 +16,6 @@ namespace AppFlix
             logo.Source = ImageSource.FromResource("AppFlix.Imagens.videomais.png");
             Escolha1.Source = ImageSource.FromResource("AppFlix.Imagens.Escolha1.png");
             Escolha2.Source = ImageSource.FromResource("AppFlix.Imagens.Escolha2.png");
-            Escolha3.Source = ImageSource.FromResource("AppFlix.Imagens.Escolha3.png");
 
             NavigationPage.SetHasNavigationBar(this, false);
         }
@@ -46,16 +45,6 @@ namespace AppFlix
             }
         }
 
-        private void Escolha3_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new TelaInicial());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
+       
     }
 }
