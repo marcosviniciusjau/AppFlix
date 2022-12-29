@@ -11,7 +11,14 @@
                 <Setter Property="BarBackgroundColor" Value="#E4142C" />
                 <Setter Property="BarTextColor" Value="#E4142C" />
             </Style>
+            
+            <Style x:Key="ButtonPosters" TargetType="ImageButton">
 
+                <Setter Property="Aspect" Value="Fill"/>
+                <Setter Property="BorderColor" Value="#555"/>
+                <Setter Property="BorderWidth" Value="2"/>
+
+            </Style>
             <Style TargetType="Button">
                 <Setter Property="BackgroundColor" Value="#E4142C" />
                 <Setter Property="TextColor" Value="white" />

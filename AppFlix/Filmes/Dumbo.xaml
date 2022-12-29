@@ -5,55 +5,63 @@
              BackgroundColor="#6C287D">
 
     <ContentPage.Content>
+        <StackLayout Orientation="Vertical" Style="{StaticResource logoNaListaDeCategorias}">
+            
+            <Image x:Name="logo" />
 
-        <Grid>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="395" />
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="420" />
-            </Grid.RowDefinitions>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="395" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="420" />
+                </Grid.RowDefinitions>
 
-            <WebView Grid.Column="0" Grid.Row="0" x:Name="video" />
+                <WebView Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"
+                         x:Name="Visualizador"
+                         Source="https://www.youtube.com/embed/jxAq0WZL9t0"
+                         VerticalOptions="FillAndExpand"
+                         BackgroundColor="#2f2f30"/>
+                <WebView Grid.Column="0" Grid.Row="0" x:Name="video" />
 
-            <StackLayout Grid.Column="0" Grid.Row="1">
-                <ScrollView>
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="100" />
-                            <ColumnDefinition Width="100" />
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="50" />
-                            <RowDefinition Height="50" />
-                        </Grid.RowDefinitions>
+                <StackLayout Grid.Column="0" Grid.Row="1">
+                    <ScrollView>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50" />
+                                <RowDefinition Height="50" />
+                            </Grid.RowDefinitions>
 
-                        <Button BackgroundColor="#E41"  Grid.Column="2" Grid.Row="1" Text="Adicionar à lista" VerticalOptions="StartAndExpand"/>
-                        <Button BackgroundColor="#E41"  Grid.Column="1" Grid.Row="1" Text="Baixar" VerticalOptions="StartAndExpand"/>
-                        <Button BackgroundColor="#E41"  Grid.Column="0" Grid.Row="1" Text="Assistir" VerticalOptions="Start"  />
+                            <Button BackgroundColor="#E41"  Grid.Column="2" Grid.Row="1" Text="Adicionar à lista" VerticalOptions="StartAndExpand"/>
+                            <Button BackgroundColor="#E41"  Grid.Column="1" Grid.Row="1" Text="Baixar" VerticalOptions="StartAndExpand"/>
+                            <Button BackgroundColor="#E41"  Grid.Column="0" Grid.Row="1" Text="Assistir" VerticalOptions="Start"  />
 
-                        <StackLayout Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="3"  VerticalOptions="Fill">
-
-
-                            <!-- <Label Text="Título" Style="{StaticResource Titulo}" /> -->
-                            <Label Text="Dumbo 2019 4k" Style="{StaticResource TextoBrancoCentralizado}" FontSize="Large" Padding="-5" FontAttributes="Italic"/>
-                           
-
-                        </StackLayout>
-
-                        <StackLayout Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Padding="1">
-                            <Label Text="Sinopse" Style="{StaticResource Titulo}" />
-
-                            <Label x:Name="lbl_sinopse" Style="{StaticResource TextoBranco}" />
-                        </StackLayout>
+                            <StackLayout Grid.Column="0" Grid.Row="0"  Grid.ColumnSpan="3"  VerticalOptions="Fill">
 
 
+                                <!-- <Label Text="Título" Style="{StaticResource Titulo}" /> -->
+                                <Label Text="Dumbo" Style="{StaticResource TextoBrancoCentralizado}" FontSize="Large" Padding="-5" FontAttributes="Italic"/>
 
-                    </Grid>
-                </ScrollView>
-            </StackLayout>
-        </Grid>
 
+                            </StackLayout>
+
+                            <StackLayout Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" Padding="1">
+                                <Label Text="Sinopse" Style="{StaticResource Titulo}" />
+
+                                <Label x:Name="lbl_sinopse" Style="{StaticResource TextoBranco}" />
+                            </StackLayout>
+
+
+
+                        </Grid>
+                    </ScrollView>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
     </ContentPage.Content>
 
 </ContentPage>

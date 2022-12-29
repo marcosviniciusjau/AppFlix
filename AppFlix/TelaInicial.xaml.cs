@@ -15,23 +15,23 @@ namespace AppFlix
         public TelaInicial()
         {
             InitializeComponent();
-            logo.Source = ImageSource.FromResource("AppFlix.Imagens.videomais.png");
-            destaque.Source = ImageSource.FromResource("AppFlix.Imagens.jumanji.jpeg");
+            logo.Source = ImageSource.FromResource("AppFlix.Imagens.video-plus.png") ;
+            btndestaque.Source = ImageSource.FromResource("AppFlix.Posters.batman.jpg");
             btnHome.Source = ImageSource.FromResource("AppFlix.Imagens.home.png");
             btnBuscar.Source = ImageSource.FromResource("AppFlix.Imagens.buscar.png");
             btnDownload.Source = ImageSource.FromResource("AppFlix.Imagens.download.png");
             btnCapitaMarvel.Source = ImageSource.FromResource("AppFlix.Posters.capitamarvel.jpg");
-            btnReiLeao.Source = ImageSource.FromResource("AppFlix.Posters.reileao.jpeg");
-            btnIndianaJones.Source = ImageSource.FromResource("AppFlix.Posters.indianajones.jpg");
-            btnAlladin.Source = ImageSource.FromResource("AppFlix.Posters.alladin.jpg");
+            //btnReiLeao.Source = ImageSource.FromResource("AppFlix.Posters.reileao.jpeg");
+            //btnIndianaJones.Source = ImageSource.FromResource("AppFlix.Posters.indianajones.jpg");
+            btnAlladin.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra2.jpg");
             btnPanteraNegra.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra.jpg");
             btnShazan.Source = ImageSource.FromResource("AppFlix.Posters.shazam.jpg");
             btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
-            btnVef.Source = ImageSource.FromResource("AppFlix.Posters.vef.jpg");
-            btnAventuraFloresta.Source = ImageSource.FromResource("AppFlix.Posters.aventurafloresta.jpeg");
-            btnChamadoFloresta.Source = ImageSource.FromResource("AppFlix.Posters.chamadofloresta.jpg");
-            btnSonic.Source = ImageSource.FromResource("AppFlix.Posters.sonic.jpg");
-            btnFlintstones.Source = ImageSource.FromResource("AppFlix.Posters.flintstones.jpeg");
+            btnVef.Source = ImageSource.FromResource("AppFlix.Posters.projetoadam.jpg");
+            //btnAventuraFloresta.Source = ImageSource.FromResource("AppFlix.Posters.aventurafloresta.jpeg");
+            //btnChamadoFloresta.Source = ImageSource.FromResource("AppFlix.Posters.chamadofloresta.jpg");
+           // btnSonic.Source = ImageSource.FromResource("AppFlix.Posters.sonic.jpg");
+            //btnFlintstones.Source = ImageSource.FromResource("AppFlix.Posters.flintstones.jpeg");
 
             NavigationPage.SetHasNavigationBar(this, false);
         }

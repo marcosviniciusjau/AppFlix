@@ -13,7 +13,7 @@ namespace AppFlix
         public MainPage()
         {
             InitializeComponent();
-            logo.Source = ImageSource.FromResource("AppFlix.Imagens.videomais.png");
+            logo.Source = ImageSource.FromResource("AppFlix.Imagens.video-plus.png");
             Escolha1.Source = ImageSource.FromResource("AppFlix.Imagens.Escolha1.png");
             Escolha2.Source = ImageSource.FromResource("AppFlix.Imagens.Escolha2.png");
 
