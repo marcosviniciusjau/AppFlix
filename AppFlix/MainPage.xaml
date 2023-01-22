@@ -6,16 +6,16 @@
     <StackLayout >
 
 
-        <Image x:Name="logo" HeightRequest="150" />
+        <Image x:Name="logo" HeightRequest="80" />
 
         <ScrollView>
 
-            <Grid RowSpacing="20" ColumnSpacing="10" Padding="10">
+            <Grid>
 
 
                 <Grid.ColumnDefinitions>
 
-                    <ColumnDefinition Width="100"/>
+                    <ColumnDefinition Width="150"/>
                     <ColumnDefinition Width="100"/>
 
                 </Grid.ColumnDefinitions>
@@ -23,7 +23,7 @@
 
                 <Grid.RowDefinitions>
 
-                    <RowDefinition Height="150"/>
+                    <RowDefinition Height="10"/>
                     <RowDefinition Height="150"/>
 
                 </Grid.RowDefinitions>
@@ -31,13 +31,12 @@
 
 
 
-                <Label Text="Quem vai assistir?" FontAttributes="Bold"  VerticalOptions="Center" Grid.Column="0" Grid.Row="1"   Style="{StaticResource Titulo}" />
+                <Label Text="Quem vai assistir?" FontAttributes="Bold"  VerticalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="1"   Style="{StaticResource Titulo}" />
 
 
+                <ImageButton  x:Name="Escolha1" Clicked="Escolha1_Clicked"   Grid.Column="1" Grid.Row="2"  />
 
-                <ImageButton  x:Name="Escolha1" Clicked="Escolha1_Clicked"   Grid.Column="0" Grid.Row="2"  Grid.ColumnSpan="2" />
-
-                <ImageButton  x:Name="Escolha2" Clicked="Escolha2_Clicked"   Grid.Column="1" Grid.Row="2"/>
+                <ImageButton  x:Name="Escolha2" Clicked="Escolha2_Clicked"   Grid.Column="2" Grid.Row="2"  BorderColor="Transparent"/>
 
 
             </Grid>

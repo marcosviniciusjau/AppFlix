@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AppFlix.Filmes
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Alladin : ContentPage
+    public partial class PanteraNegra2 : ContentPage
     {
-        public Alladin()
+        public PanteraNegra2()
         {
             InitializeComponent();
             HtmlWebViewSource html_externo = new HtmlWebViewSource();

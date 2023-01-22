@@ -5,41 +5,46 @@
 
     <StackLayout Orientation="Vertical">
 
-        <Image x:Name="logo" Style="{StaticResource logoNaListaDeCategorias}" />
-       
+    <Image x:Name="logo" Style="{StaticResource logoNaListaDeCategorias}" VerticalOptions="Center"/>
+     <Image x:Name="destaque" />
+      
+
+
+        <StackLayout Grid.Column="0" Grid.Row="0" VerticalOptions="Start">
+        </StackLayout>
 
         <ScrollView>
 
-            <Grid Padding="5">
+            <Grid RowSpacing="50" 
+                  ColumnSpacing="20" 
+                  Padding="10">
 
                 <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
+                    <ColumnDefinition Width="150"/>
                 </Grid.ColumnDefinitions>
 
                 <Grid.RowDefinitions>
 
-                    <RowDefinition Height="300"/>
-                    <RowDefinition Height="300"/>
-
+                    <RowDefinition Height="250"/>
+                    <RowDefinition Height="250"/>
+                    
                 </Grid.RowDefinitions>
 
-                <ImageButton x:Name="btndestaque" Grid.Column="0" Grid.Row="0"   Style="{ StaticResource ButtonPosters }" BorderColor="#e80000"/>
-
-                <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked"   Style="{ StaticResource ButtonPosters }" BorderColor="#e80000"/>
-                <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnVef" Clicked="btnVef_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
+              
+                <ImageButton Grid.Column="0" Grid.Row="0" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked"   Style="{ StaticResource ButtonPosters }" BorderColor="#e80000"/>
+                <ImageButton Grid.Column="1" Grid.Row="0" x:Name="btnProjetoAdam" Clicked="btnProjetoAdam_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
                 <ImageButton Grid.Column="0" Grid.Row="2" x:Name="btnShazan" Clicked="btnShazam_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="1" Grid.Row="2" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="0" Grid.Row="3" x:Name="btnAlladin" Clicked="btnAlladin_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="1" Grid.Row="3" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
+                <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
+                <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnPanteraNegra2" Clicked="btnPanteraNegra2_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
+                <ImageButton Grid.Column="1" Grid.Row="2" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
 
-                <ImageButton Grid.Column="0" Grid.Row="4" x:Name="btnHome" Clicked="btnHome_Clicked"  VerticalOptions="End" BorderWidth="100" MinimumHeightRequest="100"/>
-                <ImageButton Grid.Column="1" Grid.Row="4" x:Name="btnBuscar" Clicked="btnBuscar_Clicked"  VerticalOptions="End" BorderWidth="100" MinimumHeightRequest="100"/>
-                <ImageButton Grid.Column="2" Grid.Row="4" x:Name="btnDownload" Clicked="btnDownload_Clicked"  VerticalOptions="End" BorderWidth="100" MinimumHeightRequest="100"/>
-
-
-
+                <StackLayout Grid.Column="0" Grid.Row="4" >
+                    <Image  x:Name="Home"   />
+                    <Image  x:Name="Buscar"   />
+                    <Image  x:Name="Download" />
+                </StackLayout>
 
             </Grid>
         </ScrollView>

@@ -15,8 +15,7 @@
             <Style x:Key="ButtonPosters" TargetType="ImageButton">
 
                 <Setter Property="Aspect" Value="Fill"/>
-                <Setter Property="BorderColor" Value="#555"/>
-                <Setter Property="BorderWidth" Value="2"/>
+           
 
             </Style>
             <Style TargetType="Button">
