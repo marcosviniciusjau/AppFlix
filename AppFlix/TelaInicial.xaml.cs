@@ -169,5 +169,10 @@ namespace AppFlix
         {
 
         }
+
+        private void btnPanteraNegra2_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
