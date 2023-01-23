@@ -74,18 +74,7 @@ namespace AppFlix
 
         }
 
-        private void btnAlladin_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.Alladin());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
+     
         private void btnDumbo_Clicked(object sender, EventArgs e)
         {
             try
@@ -167,12 +156,19 @@ namespace AppFlix
 
         private void btnProjetoAdam_Clicked(object sender, EventArgs e)
         {
-
+         
         }
 
         private void btnPanteraNegra2_Clicked(object sender, EventArgs e)
         {
-
+            try
+            {
+                Navigation.PushAsync(new Filmes.PanteraNegra2());
+            }
+            catch (Exception ex)
+            {
+                DisplayAlert("Ops!", ex.Message, "Ok :(");
+            }
         }
     }
 }
