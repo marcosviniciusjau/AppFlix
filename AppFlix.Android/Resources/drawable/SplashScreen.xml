@@ -10,7 +10,7 @@
 
   <item>
 
-    <bitmap android:src="@drawable/video_plus_splash_screen"
+    <bitmap android:src="@drawable/xamarin_flix_splash_screen"
 				android:tileMode="disabled"
 				android:gravity="center"/>
 

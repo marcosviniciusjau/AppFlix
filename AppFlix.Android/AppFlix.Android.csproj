@@ -89,9 +89,6 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\video_plus_icon.png" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\AppFlix\AppFlix.csproj">
       <Project>{440E857E-85CB-499C-810D-C60019DDE7F1}</Project>
       <Name>AppFlix</Name>
@@ -101,37 +98,37 @@
     <AndroidResource Include="Resources\drawable\SplashScreen.xml" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\video_plus_icon.png" />
+    <AndroidResource Include="Resources\drawable\xamarin_flix_spash_screen.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\video_plus_icon.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\xamarin_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\video_plus_icon.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\xamarin_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\video_plus_icon.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\xamarin_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\video_plus_splash_screen.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\xamarin_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\drawable\video_plus_splash_screen.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\xamarin_icon.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-hdpi\video_plus_laucher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-hdpi\xamarin_laucher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-mdpi\video_plus_laucher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-mdpi\xamarin_laucher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xhdpi\video_plus_laucher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xhdpi\xamarin_laucher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxhdpi\video_plus_laucher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxhdpi\xamarin_laucher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <AndroidResource Include="Resources\mipmap-xxxhdpi\video_plus_laucher_foreground.png" />
+    <AndroidResource Include="Resources\mipmap-xxxhdpi\xamarin_laucher_foreground.png" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
