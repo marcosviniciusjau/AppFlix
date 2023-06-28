@@ -11,7 +11,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="ImagensCategorias\Animacao.png" />
     <None Remove="ImagensCategorias\Aventura.png" />
     <None Remove="ImagensCategorias\Comedia.png" />
     <None Remove="ImagensCategorias\Documentario.png" />
@@ -54,7 +53,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Include="ImagensCategorias\Animacao.png" />
     <EmbeddedResource Include="ImagensCategorias\Aventura.png" />
     <EmbeddedResource Include="ImagensCategorias\Comedia.png" />
     <EmbeddedResource Include="ImagensCategorias\Documentario.png" />
