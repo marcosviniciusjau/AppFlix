@@ -20,9 +20,7 @@ namespace AppFlix.Categorias
             btnPanteraNegra2.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra2.jpg");
             btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
             btnPanteraNegra.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra.jpg");
-            btnShazam.Source = ImageSource.FromResource("AppFlix.Posters.shazam.jpg");
-            btnVef.Source = ImageSource.FromResource("AppFlix.Posters.vef.jpg");
-
+       
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
@@ -51,20 +49,7 @@ namespace AppFlix.Categorias
             }
         }
 
-        private void btnShazam_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.Shazam());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-
-        }
-
-      
+         
 
         private void btnDumbo_Clicked(object sender, EventArgs e)
         {
@@ -78,18 +63,7 @@ namespace AppFlix.Categorias
             }
         }
 
-        private void btnVef_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.Vef());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
+    
         private void btnPanteraNegra2_Clicked(object sender, EventArgs e)
         {
             try

@@ -33,11 +33,7 @@
     <None Remove="Imagens\Escolha2.png" />
     <None Remove="Imagens\Escolha3.png" />
     <None Remove="Imagens\home.png" />
-    <None Remove="Imagens\jumanji.jpeg" />
     <None Remove="Imagens\lupabuscar.png" />
-    <None Remove="Imagens\video-plus.png" />
-    <None Remove="Imagens\videomais.png" />
-    <None Remove="Imagens\video_plus_icon.png" />
     <None Remove="Img\dumbo.jpg" />
     <None Remove="Img\logotipo.png" />
     <None Remove="Posters\alladin.jpg" />
@@ -52,9 +48,7 @@
     <None Remove="Posters\panteranegra2.jpg" />
     <None Remove="Posters\projetoadam.jpg" />
     <None Remove="Posters\reileao.jpeg" />
-    <None Remove="Posters\shazam.jpg" />
     <None Remove="Posters\sonic.jpg" />
-    <None Remove="Posters\vef.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -84,10 +78,6 @@
     <EmbeddedResource Include="Imagens\Escolha2.png" />
     <EmbeddedResource Include="Imagens\Escolha3.png" />
     <EmbeddedResource Include="Imagens\home.png" />
-    <EmbeddedResource Include="Imagens\jumanji.jpeg" />
-    <EmbeddedResource Include="Imagens\video-plus.png" />
-    <EmbeddedResource Include="Imagens\videomais.png" />
-    <EmbeddedResource Include="Imagens\video_plus_icon.png" />
     <EmbeddedResource Include="Posters\batman.jpg" />
     <EmbeddedResource Include="Posters\dumbo.jpg" />
     <EmbeddedResource Include="Img\logotipo.png" />
@@ -101,9 +91,7 @@
     <EmbeddedResource Include="Posters\panteranegra2.jpg" />
     <EmbeddedResource Include="Posters\projetoadam.jpg" />
     <EmbeddedResource Include="Posters\reileao.jpeg" />
-    <EmbeddedResource Include="Posters\shazam.jpg" />
     <EmbeddedResource Include="Posters\sonic.jpg" />
-    <EmbeddedResource Include="Posters\vef.jpg" />
   </ItemGroup>
 
   <ItemGroup>
@@ -138,12 +126,6 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Filmes\PanteraNegra.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Filmes\Shazam.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Filmes\Vef.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TelaInicial.xaml">
