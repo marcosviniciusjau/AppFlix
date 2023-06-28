@@ -18,16 +18,14 @@ namespace AppFlix
             btnAventura.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Aventura.png");
             btnComedia.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Comedia.png");
             btnDrama.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Drama.png");
-            btnTerror.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Terror.png");
-            btnFiccaoCientifica.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.FiccaoCientifica.png");
+           btnFiccaoCientifica.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.FiccaoCientifica.png");
             btnSuspense.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Suspense.png");
             btnAnimacao.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Animacao.png");
             btnDocumentario.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Documentario.png");
             btnGuerra.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Guerra.png");
             btnNacional.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Nacional.png");
             btnRomance.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Romance.png");
-            btnInfantil.Source = ImageSource.FromResource("AppFlix.ImagensCategorias.Infantil.png");
-
+       
 
             NavigationPage.SetHasNavigationBar(this, false);
 

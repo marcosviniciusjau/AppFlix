@@ -31,7 +31,6 @@
                 <ImageButton Grid.Row="1" Grid.Column="0"  x:Name="btnAventura" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="1" Grid.Column="1"  x:Name="btnComedia" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="2" Grid.Column="0"  x:Name="btnDrama" Clicked="Button_Clicked"/>
-                <ImageButton Grid.Row="2" Grid.Column="1"  x:Name="btnTerror" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="3" Grid.Column="0"  x:Name="btnFiccaoCientifica" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="3" Grid.Column="1"  x:Name="btnSuspense" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="4" Grid.Column="0"  x:Name="btnAnimacao" Clicked="Button_Clicked"/>
@@ -39,8 +38,7 @@
                 <ImageButton Grid.Row="5" Grid.Column="0"  x:Name="btnGuerra" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="5" Grid.Column="1"  x:Name="btnNacional" Clicked="Button_Clicked"/>
                 <ImageButton Grid.Row="6" Grid.Column="0"  x:Name="btnRomance" Clicked="Button_Clicked"/>
-                <ImageButton Grid.Row="6" Grid.Column="1"  x:Name="btnInfantil" Clicked="Button_Clicked"/>
-
+            
 
 
                 <SearchBar Grid.Column="1" Grid.Row="0" Grid.RowSpan="1"  >
