@@ -16,14 +16,11 @@
     <None Remove="ImagensCategorias\Documentario.png" />
     <None Remove="ImagensCategorias\Drama.png" />
     <None Remove="ImagensCategorias\FiccaoCientifica.png" />
-    <None Remove="ImagensCategorias\Guerra.png" />
     <None Remove="ImagensCategorias\Nacional.png" />
-    <None Remove="ImagensCategorias\Suspense.png" />
     <None Remove="Imagens\botaoassistir.jpg" />
     <None Remove="Imagens\botaominhalista.jpg" />
     <None Remove="Imagens\botaosaibamais.jpg" />
     <None Remove="Imagens\buscar.png" />
-    <None Remove="Imagens\capitamarveldestaque.jpg" />
     <None Remove="Imagens\download.png" />
     <None Remove="Imagens\Escolha1.png" />
     <None Remove="Imagens\Escolha2.png" />
@@ -32,17 +29,10 @@
     <None Remove="Imagens\lupabuscar.png" />
     <None Remove="Img\dumbo.jpg" />
     <None Remove="Img\logotipo.png" />
-    <None Remove="Posters\alladin.jpg" />
     <None Remove="Posters\aventurafloresta.jpeg" />
-    <None Remove="Posters\batman.jpg" />
-    <None Remove="Posters\capitamarvel.jpg" />
     <None Remove="Posters\chamadofloresta.jpg" />
     <None Remove="Posters\dumbo.jpg" />
     <None Remove="Posters\flintstones.jpeg" />
-    <None Remove="Posters\indianajones.jpg" />
-    <None Remove="Posters\panteranegra.jpg" />
-    <None Remove="Posters\panteranegra2.jpg" />
-    <None Remove="Posters\projetoadam.jpg" />
     <None Remove="Posters\reileao.jpeg" />
     <None Remove="Posters\sonic.jpg" />
   </ItemGroup>
@@ -58,30 +48,20 @@
     <EmbeddedResource Include="ImagensCategorias\Documentario.png" />
     <EmbeddedResource Include="ImagensCategorias\Drama.png" />
     <EmbeddedResource Include="ImagensCategorias\FiccaoCientifica.png" />
-    <EmbeddedResource Include="ImagensCategorias\Guerra.png" />
     <EmbeddedResource Include="ImagensCategorias\Nacional.png" />
-    <EmbeddedResource Include="ImagensCategorias\Suspense.png" />
     <EmbeddedResource Include="Imagens\botaominhalista.jpg" />
     <EmbeddedResource Include="Imagens\botaosaibamais.jpg" />
     <EmbeddedResource Include="Imagens\buscar.png" />
-    <EmbeddedResource Include="Imagens\capitamarveldestaque.jpg" />
     <EmbeddedResource Include="Imagens\download.png" />
     <EmbeddedResource Include="Imagens\Escolha1.png" />
     <EmbeddedResource Include="Imagens\Escolha2.png" />
     <EmbeddedResource Include="Imagens\Escolha3.png" />
     <EmbeddedResource Include="Imagens\home.png" />
-    <EmbeddedResource Include="Posters\batman.jpg" />
     <EmbeddedResource Include="Posters\dumbo.jpg" />
     <EmbeddedResource Include="Img\logotipo.png" />
-    <EmbeddedResource Include="Posters\alladin.jpg" />
     <EmbeddedResource Include="Posters\aventurafloresta.jpeg" />
-    <EmbeddedResource Include="Posters\capitamarvel.jpg" />
     <EmbeddedResource Include="Posters\chamadofloresta.jpg" />
     <EmbeddedResource Include="Posters\flintstones.jpeg" />
-    <EmbeddedResource Include="Posters\indianajones.jpg" />
-    <EmbeddedResource Include="Posters\panteranegra.jpg" />
-    <EmbeddedResource Include="Posters\panteranegra2.jpg" />
-    <EmbeddedResource Include="Posters\projetoadam.jpg" />
     <EmbeddedResource Include="Posters\reileao.jpeg" />
     <EmbeddedResource Include="Posters\sonic.jpg" />
   </ItemGroup>
@@ -96,28 +76,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Filmes\PanteraNegra2.xaml.cs">
-      <DependentUpon>PanteraNegra2.xaml</DependentUpon>
-    </Compile>
-  </ItemGroup>
-
-  <ItemGroup>
     <EmbeddedResource Update="Buscar.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Categorias\Aventura.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="Filmes\PanteraNegra2.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Filmes\CapitaMarvel.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Update="Filmes\Dumbo.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Update="Filmes\PanteraNegra.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="TelaInicial.xaml">

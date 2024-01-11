@@ -16,40 +16,13 @@ namespace AppFlix.Categorias
         {
             InitializeComponent();
             destaque.Source = ImageSource.FromResource("AppFlix.Categorias.Aventura.png");
-            btnCapitaMarvel.Source = ImageSource.FromResource("AppFlix.Posters.capitamarvel.jpg");
-            btnPanteraNegra2.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra2.jpg");
-            btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
-            btnPanteraNegra.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra.jpg");
-       
+          btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
+         
             NavigationPage.SetHasNavigationBar(this, false);
         }
 
-        private void btnCapitaMarvel_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.CapitaMarvel());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
 
-        private void btnPanteraNegra_Clicked(object sender, EventArgs e)
-        {
-
-            try
-            {
-                Navigation.PushAsync(new Filmes.PanteraNegra());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
-         
+       
 
         private void btnDumbo_Clicked(object sender, EventArgs e)
         {
@@ -64,16 +37,6 @@ namespace AppFlix.Categorias
         }
 
     
-        private void btnPanteraNegra2_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.PanteraNegra2());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
+     
     }
 }

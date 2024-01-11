@@ -32,11 +32,7 @@
                     <Image x:Name="destaque" /> 
                 </StackLayout>
 
-                <ImageButton Grid.Column="0" Grid.Row="3" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked"   Style="{ StaticResource ButtonPosters }" BorderColor="#e80000"/>
-                <ImageButton Grid.Column="1" Grid.Row="3" x:Name="btnProjetoAdam" Clicked="btnProjetoAdam_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnPanteraNegra2" Clicked="btnPanteraNegra2_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
-                <ImageButton Grid.Column="1" Grid.Row="2" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
+                  <ImageButton Grid.Column="1" Grid.Row="2" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"  BorderColor="#e80000"   Style="{ StaticResource ButtonPosters }"/>
 
                 <StackLayout Grid.Column="0" Grid.Row="4" VerticalOptions="End" >
                     <Image  x:Name="Home"   />

@@ -20,52 +20,10 @@ namespace AppFlix
             Home.Source = ImageSource.FromResource("AppFlix.Imagens.home.png");
             Buscar.Source = ImageSource.FromResource("AppFlix.Imagens.buscar.png");
             Download.Source = ImageSource.FromResource("AppFlix.Imagens.download.png");
-            btnCapitaMarvel.Source = ImageSource.FromResource("AppFlix.Posters.capitamarvel.jpg");
-          btnPanteraNegra2.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra2.jpg");
-            btnPanteraNegra.Source = ImageSource.FromResource("AppFlix.Posters.panteranegra.jpg");
-             btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
-            btnProjetoAdam.Source = ImageSource.FromResource("AppFlix.Posters.projetoadam.jpg");
-      
+            btnDumbo.Source = ImageSource.FromResource("AppFlix.Posters.dumbo.jpg");
+           
             NavigationPage.SetHasNavigationBar(this, false);
         }
-        private void btnCapitaMarvel_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.CapitaMarvel());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
-        private void btnPanteraNegra_Clicked(object sender, EventArgs e)
-        {
-
-            try
-            {
-                Navigation.PushAsync(new Filmes.PanteraNegra());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
-        private void btnShazam_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.Shazam());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-
-        }
-
      
         private void btnDumbo_Clicked(object sender, EventArgs e)
         {
@@ -79,18 +37,7 @@ namespace AppFlix
             }
         }
 
-        private void btnVef_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.Vef());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-
+      
 
 
         private void btnBuscar_Clicked(object sender, EventArgs e)
@@ -126,10 +73,7 @@ namespace AppFlix
 
         }
 
-        private void btnIndianaJones_Clicked(object sender, EventArgs e)
-        {
-
-        }
+       
 
         private void btnHome_Clicked(object sender, EventArgs e)
         {
@@ -146,21 +90,5 @@ namespace AppFlix
         
         }
 
-        private void btnProjetoAdam_Clicked(object sender, EventArgs e)
-        {
-         
-        }
-
-        private void btnPanteraNegra2_Clicked(object sender, EventArgs e)
-        {
-            try
-            {
-                Navigation.PushAsync(new Filmes.PanteraNegra2());
-            }
-            catch (Exception ex)
-            {
-                DisplayAlert("Ops!", ex.Message, "Ok :(");
-            }
-        }
-    }
+      }
 }

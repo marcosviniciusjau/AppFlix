@@ -27,10 +27,7 @@
                         <RowDefinition Height="146" />
                     </Grid.RowDefinitions>
 
-                    <ImageButton Grid.Column="0" Grid.Row="0" x:Name="btnCapitaMarvel" Clicked="btnCapitaMarvel_Clicked" />
-                    <ImageButton Grid.Column="1" Grid.Row="0" x:Name="btnPanteraNegra" Clicked="btnPanteraNegra_Clicked" />
-                    <ImageButton Grid.Column="0" Grid.Row="1" x:Name="btnPanteraNegra2" Clicked="btnPanteraNegra2_Clicked"/>
-                    <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"/>
+                     <ImageButton Grid.Column="1" Grid.Row="1" x:Name="btnDumbo" Clicked="btnDumbo_Clicked"/>
                   
                 </Grid>
             </ScrollView>
